@@ -1,0 +1,15 @@
+{
+  "@vite/client": {
+    "isEntry": true,
+    "file": "@vite/client",
+    "css": [],
+    "module": true,
+    "resourceType": "script"
+  },
+  "/Users/serena/GitRepos/technica-2024/technica-intro-2024/node_modules/nuxt/dist/app/entry.js": {
+    "resourceType": "script",
+    "module": true,
+    "isEntry": true,
+    "file": "/Users/serena/GitRepos/technica-2024/technica-intro-2024/node_modules/nuxt/dist/app/entry.js"
+  }
+}

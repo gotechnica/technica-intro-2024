@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "npx nuxi typecheck && nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "^3.4.0",
+    "typescript": "^5.0.4",
+    "vue-tsc": "^1.2.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.7",
+    "@types/bootstrap": "^5.2.6",
+    "bootstrap": "^5.2.3",
+    "sass": "^1.62.0",
+    "sass-loader": "^13.2.2",
+    "vee-validate": "^4.8.4",
+    "yup": "^1.1.0"
+  }
+}
