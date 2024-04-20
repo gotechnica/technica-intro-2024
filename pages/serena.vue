@@ -17,7 +17,7 @@
 
 .flex-container {
   background: rgb(2, 56, 2);
-  color:
+  color: white;
 }
 
 .navbar-brand {
