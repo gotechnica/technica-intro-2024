@@ -3,27 +3,42 @@
     <navbar />
     <div class="flex-container">
       <div class="row">
-        <div class="col-4">
-          <div class="fun-facts">
-            <h3>Fun Facts!</h3>
-            <li v-for="fact in funfacts">
-                {{ fact }}
-            </li>
+        <div class="col-9">
+          <div class="row">
+            <div class="col-5">
+              <div class="fun-facts">
+                <h3>Fun Facts!</h3>
+                <li v-for="fact in funfacts">
+                    {{ fact }}
+                </li>
+              </div>
+            </div>
+            <div class="col-7 about-me">
+              <h1>About Me!</h1>
+              <p>Hi! I'm Serena, as you guys probably already know. I'm one of the Tech Co-Directors and I was on 
+                Tech team last year. I'm a sophomore majoring in Computer Science and Mathematics. I'm also pursuing 
+                a minor in Classical Mythology. I code sometimes, but I also like to art and sometimes tennis. I read
+                when I have the chance but now I'm more of a gamer 😔
+              </p>
+            </div>
           </div>
-          
-            <h3>Two Truths and A Lie</h3>
-        </div>
-        <div class="col-5 about-me">
-          <h1>About Me!</h1>
-          <p>Hi! I'm Serena, as you guys probably already know. I'm one of the Tech Co-Directors and I was on 
-            Tech team last year. I'm a sophomore majoring in Computer Science and Mathematics. I'm also pursuing 
-            a minor in Classical Mythology. I code sometimes, but I also like to art and sometimes tennis. I read
-            when I have the chance but now I'm more of a gamer 😔
-          </p>
+          <div class="row truths">
+          <h3>Two Truths and A Lie</h3>
+            <div class="col-11">
+              <p>I live an hour away from Disney World</p>
+              <p>My neighborhood has a reserved area because bald eagles live there</p>
+              <p>I'm a League of Legends player</p>
+            </div>
+            <div class="col-1">
+              <p>MEMMEME</p>
+            </div>
+
+          </div>
         </div>
         <div class="col">
           <img class = "img" src="serena.jpg">
         </div>
+        
       </div>
     </div>
   </div>
@@ -31,11 +46,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-
-const props = defineProps<{pic: string}>()
 const funfacts = ref(["I'm in Club Tennis and Gymnastics", "I'm a fiend for boba", "I've been to China a few times", "I'm from Florida (we do have an aligator in our back yard)", "My favorite color is green"])
-
-let picture = ref(props.pic)
 </script>
 
 
