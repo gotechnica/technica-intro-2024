@@ -13,7 +13,7 @@
             <li class="list-group-item">Navbar</li>
             <li class="list-group-item">Button</li>
             <li class="list-group-item">Bootstrap (rows & cols)</li>
-            <li class="list-group-item"><a href="https://vuejs.org/api/built-in-directives.html">Vue Directive</a></li>
+            <li class="list-group-item"><a href="https://vuejs.org/api/built-in-directives.html">Vue Directive</a> or TypeScript</li>
           </ol>
         </div>
       </div>
@@ -31,10 +31,6 @@ Ensure that you use Vue's Composition API
 
 Please name your page "{name}.vue" (without brackets)
 Please make sure you're on a branch with your name -->
-
-
-
-</template>
 
 <script>
 
