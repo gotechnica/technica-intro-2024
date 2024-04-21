@@ -6,10 +6,10 @@
     "module": true,
     "resourceType": "script"
   },
-  "C:/Users/Matthew/Downloads/github-projects/technica-intro-2024/node_modules/nuxt/dist/app/entry.js": {
+  "/Users/serena/GitRepos/technica-2024/technica-intro-2024/node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "isEntry": true,
-    "file": "C:/Users/Matthew/Downloads/github-projects/technica-intro-2024/node_modules/nuxt/dist/app/entry.js"
+    "file": "/Users/serena/GitRepos/technica-2024/technica-intro-2024/node_modules/nuxt/dist/app/entry.js"
   }
 }

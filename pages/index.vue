@@ -32,10 +32,6 @@ Ensure that you use Vue's Composition API
 Please name your page "{name}.vue" (without brackets)
 Please make sure you're on a branch with your name -->
 
-
-
-</template>
-
 <script>
 
 </script>
