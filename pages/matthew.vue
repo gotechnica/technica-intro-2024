@@ -3,13 +3,13 @@
   <div class="wrapperNav">
     <navbar />
   </div>
-  
+
   <div class="wrapperBody">
     <div class="flex-container">
       <div class="row">
         <!-- Column 1 -->
         <div class="col-sm-4 d-flex justify-content-center position-relative">
-          <img class="img" src="matthew.png" @click="toggleText">
+          <img class="img" src="public/matthew.png" @click="toggleText">
         </div>
 
         <!-- Column 2 -->
@@ -95,7 +95,6 @@ export default {
 </script>
 
 <style scoped>
-
 /* background-color: linear-gradient(to right, #2ae9f1, #fb7dad); */
 
 .wrapperNav {
@@ -120,5 +119,4 @@ export default {
   transform: translateY(10%);
   cursor: pointer;
 }
-
 </style>
