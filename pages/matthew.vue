@@ -9,7 +9,7 @@
       <div class="row">
         <!-- Column 1 -->
         <div class="col-sm-4 d-flex justify-content-center position-relative">
-          <img class="img" src="matthew.png" @click="toggleText">
+          <img class="img" src="/public/matthew.png" @click="toggleText">
         </div>
 
         <!-- Column 2 -->
@@ -98,9 +98,7 @@ export default {
 
 /* background-color: linear-gradient(to right, #2ae9f1, #fb7dad); */
 
-.wrapperNav {
-  background: #130f1f;
-}
+
 
 .wrapperBody {
   background: #ffb3c3;

@@ -46,7 +46,7 @@
           </div>
         </div>
         <div class="col">
-          <img class = "img" src="serena.jpg">
+          <img class = "img" src="/public/serena.jpg">
         </div>
         
       </div>
