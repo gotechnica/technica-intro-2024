@@ -75,10 +75,10 @@
     margin-top: 7rem;
 }
 
-.flex-container {
+/* .flex-container {
   display: flex;
   justify-content: center;
-}
+} */
 
 .about-me {
   text-align: center;
