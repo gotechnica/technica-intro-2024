@@ -1,4 +1,4 @@
-## 2024 Tech Team Intro project!
+## 2024 Tech Team Intro project! 
 
 This is just a project to get everyone started with our tech stack. You just have to make sure you implement a few things, and the rest is up to you! A lot of this is basics you'll use for the rest of the Technica season. Don't forget to have fun with it!
 
