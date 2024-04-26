@@ -7,12 +7,12 @@
     "module": true,
     "resourceType": "script"
   },
-  "/Users/serena/GitRepos/technica-2024/technica-intro-2024/node_modules/nuxt/dist/app/entry.js": {
+  "/Users/valentina/Technica/technica-intro-2024/node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
     "isEntry": true,
-    "file": "/Users/serena/GitRepos/technica-2024/technica-intro-2024/node_modules/nuxt/dist/app/entry.js"
+    "file": "/Users/valentina/Technica/technica-intro-2024/node_modules/nuxt/dist/app/entry.js"
   }
 }

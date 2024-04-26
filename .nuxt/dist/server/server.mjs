@@ -1,1 +1,1 @@
-export { default } from "file:///Users/serena/GitRepos/technica-2024/technica-intro-2024/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
+export { default } from "file:///Users/valentina/Technica/technica-intro-2024/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
