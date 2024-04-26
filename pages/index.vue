@@ -22,7 +22,7 @@
           <p>Good luck everyone! And if you need any questions, feel free to ask on Slack!</p>
         </div>
         <div class="col-md-5">
-          <img class = "yaya" src = "yaya.gif" />
+          <img class = "yaya" src = "/public/yaya.gif" />
         </div>
       </div>
     </div>
