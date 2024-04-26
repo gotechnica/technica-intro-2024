@@ -80,6 +80,7 @@ export default {
     overflow: hidden;
     width: 300px;
     height: 300px;
+    margin-top: 10px;
 }
 
 .rounded-image {
