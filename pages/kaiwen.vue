@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="wrapper-big">
     <navbar />
     <div class="container">
       <div class="upper">
@@ -14,8 +14,54 @@
           </div>
         </div>
       </div>
+      <div class="low">
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="public/kaiwen_images/rome.jpg">
+            </div>
+            <div class="col-lg-4">
+              <img src="public/kaiwen_images/naples.jpg">
+            </div>
+            <div class="col-lg-4">
+              <img src="public/kaiwen_images/positano.jpg">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="public/kaiwen_images/prague.jpg">
+            </div>
+            <div class="col-lg-4">
+              <img src="public/kaiwen_images/paris.jpg">
+            </div>
+            <div class="col-lg-4">
+              <img src="public/kaiwen_images/brussels.jpg">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="public/kaiwen_images/amsterdam.jpg">
+            </div>
+            <div class="col-lg-4">
+              <img src="public/kaiwen_images/london.jpg">
+            </div>
+            <div class="col-lg-4">
+              <img src="public/kaiwen_images/dublin.jpg">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="public/kaiwen_images/munich.jpg">
+            </div>
+            <div class="col-lg-4">
+              <img src="public/kaiwen_images/barcelona.jpg">
+            </div>
+            <div class="col-lg-4">
+              <img src="public/kaiwen_images/prague.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
 </template>
 
 <script setup lang="ts">
@@ -36,9 +82,8 @@ function addTwo(a: boolean): number {
 
 <style scoped>
 
-.wrapper {
-  width: 100%;
-  min-height: 100vh;
+.wrapper-big   {
+  background-color: #211642 !important;
 }
 
 #profile-pic {
@@ -58,5 +103,17 @@ function addTwo(a: boolean): number {
 
 .relative {
   position: relative;
+}
+
+.low {
+  margin-top: 3%;
+}
+
+.low img {
+  width: 100%;
+}
+
+.low .row {
+  margin-top: 3%;
 }
 </style>
