@@ -17,46 +17,82 @@
       <div class="low">
           <div class="row">
             <div class="col-lg-4">
-              <img src="/kaiwen_images/rome.jpg">
+              <div class="overlay" v-on:mouseover="displayOverlay" v-on:mouseleave="hideOverlay">
+                <p class="overlay-text">Rome, Italy</p>
+                <img src="/kaiwen_images/rome.jpg">
+              </div>
             </div>
             <div class="col-lg-4">
-              <img src="/kaiwen_images/naples.jpg">
+              <div class="overlay" v-on:mouseover="displayOverlay" v-on:mouseleave="hideOverlay">
+                <p class="overlay-text">Naples, Italy</p>
+                <img src="/kaiwen_images/naples.jpg">
+              </div>
             </div>
             <div class="col-lg-4">
-              <img src="/kaiwen_images/positano.jpg">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-4">
-              <img src="/kaiwen_images/prague.jpg">
-            </div>
-            <div class="col-lg-4">
-              <img src="/kaiwen_images/paris.jpg">
-            </div>
-            <div class="col-lg-4">
-              <img src="/kaiwen_images/brussels.jpg">
+              <div class="overlay" v-on:mouseover="displayOverlay" v-on:mouseleave="hideOverlay">
+                <p class="overlay-text">Positano, Italy</p>
+                <img src="/kaiwen_images/positano.jpg">
+              </div>
             </div>
           </div>
           <div class="row">
             <div class="col-lg-4">
-              <img src="/kaiwen_images/amsterdam.jpg">
+              <div class="overlay" v-on:mouseover="displayOverlay" v-on:mouseleave="hideOverlay">
+                <p class="overlay-text">Prague, Czech Republic</p>
+                <img src="/kaiwen_images/prague.jpg">
+              </div>
             </div>
             <div class="col-lg-4">
-              <img src="/kaiwen_images/london.jpg">
+              <div class="overlay" v-on:mouseover="displayOverlay" v-on:mouseleave="hideOverlay">
+                <p class="overlay-text">Interlaken, Switzerland</p>
+                <img src="/kaiwen_images/switzerland.jpg">
+              </div>
             </div>
             <div class="col-lg-4">
-              <img src="/kaiwen_images/dublin.jpg">
+              <div class="overlay" v-on:mouseover="displayOverlay" v-on:mouseleave="hideOverlay">
+                <p class="overlay-text">Paris, France</p>
+                <img src="/kaiwen_images/paris.jpg">
+              </div>
             </div>
           </div>
           <div class="row">
             <div class="col-lg-4">
-              <img src="/kaiwen_images/munich.jpg">
+              <div class="overlay" v-on:mouseover="displayOverlay" v-on:mouseleave="hideOverlay">
+                <p class="overlay-text">Brussels, Belgium</p>
+                <img src="/kaiwen_images/brussels.jpg">
+              </div>
             </div>
             <div class="col-lg-4">
-              <img src="/kaiwen_images/barcelona.jpg">
+              <div class="overlay" v-on:mouseover="displayOverlay" v-on:mouseleave="hideOverlay">
+                <p class="overlay-text">Amsterdam, Netherlands</p>
+                <img src="/kaiwen_images/amsterdam.jpg">
+              </div>
             </div>
             <div class="col-lg-4">
-              <img src="/kaiwen_images/prague.jpg">
+              <div class="overlay" v-on:mouseover="displayOverlay" v-on:mouseleave="hideOverlay">
+                <p class="overlay-text">London, England</p>
+                <img src="/kaiwen_images/london.jpg">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="overlay" v-on:mouseover="displayOverlay" v-on:mouseleave="hideOverlay">
+                <p class="overlay-text">Dublin, Ireland</p>
+                <img src="/kaiwen_images/dublin.jpg">
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="overlay" v-on:mouseover="displayOverlay" v-on:mouseleave="hideOverlay">
+                <p class="overlay-text">Munich, Germany</p>
+                <img src="/kaiwen_images/munich.jpg">
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="overlay" v-on:mouseover="displayOverlay" v-on:mouseleave="hideOverlay">
+                <p class="overlay-text">Barcelona, Spain</p>
+                <img src="/kaiwen_images/barcelona.jpg">
+              </div>
             </div>
           </div>
         </div>
@@ -66,15 +102,15 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-const funfacts = ref(["I'm in Club Tennis and Gymnastics", "I'm a fiend for boba", "I've been to China a few times", "I'm from Florida (we do have an aligator in our back yard)", "My favorite color is green"])
 
-function addTwo(a: boolean): number {
-  if(a) {
-    alert("This is actually true, try again!");
-  } else {
-    alert("You got it right! I would never play League  😔")
-  }
-  return 1;
+function displayOverlay(e: any) {
+  e.target.style.opacity = 0.2
+  e.target.parentElement.querySelector('.overlay-text').style.display = 'inline'
+}
+
+function hideOverlay(e: any) {
+  e.target.querySelector('img').style.opacity = 1
+  e.target.querySelector('.overlay-text').style.display = 'none'
 }
 
 </script>
@@ -114,10 +150,24 @@ function addTwo(a: boolean): number {
 
 .low img {
   width: 100%;
+  z-index: -1;
 }
 
 .low .row {
   margin-top: 3%;
 }
 
+.overlay {
+  position: relative;
+  z-index: 1;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50% !important;
+  left: 50%;
+  padding: 0;
+  transform: translate(-50%, -50%);
+  display: none;
+}
 </style>
