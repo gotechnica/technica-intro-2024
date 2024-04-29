@@ -10,53 +10,53 @@
             <p id="align-btm">Check out where I've been! ⬇️</p>
           </div>
           <div class="col-lg-6">
-            <img src="public/kaiwen_images/kaiwen.jpg" class="img-fluid" id="profile-pic">
+            <img src="/kaiwen_images/kaiwen.jpg" class="img-fluid" id="profile-pic">
           </div>
         </div>
       </div>
       <div class="low">
           <div class="row">
             <div class="col-lg-4">
-              <img src="public/kaiwen_images/rome.jpg">
+              <img src="/kaiwen_images/rome.jpg">
             </div>
             <div class="col-lg-4">
-              <img src="public/kaiwen_images/naples.jpg">
+              <img src="/kaiwen_images/naples.jpg">
             </div>
             <div class="col-lg-4">
-              <img src="public/kaiwen_images/positano.jpg">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-4">
-              <img src="public/kaiwen_images/prague.jpg">
-            </div>
-            <div class="col-lg-4">
-              <img src="public/kaiwen_images/paris.jpg">
-            </div>
-            <div class="col-lg-4">
-              <img src="public/kaiwen_images/brussels.jpg">
+              <img src="/kaiwen_images/positano.jpg">
             </div>
           </div>
           <div class="row">
             <div class="col-lg-4">
-              <img src="public/kaiwen_images/amsterdam.jpg">
+              <img src="/kaiwen_images/prague.jpg">
             </div>
             <div class="col-lg-4">
-              <img src="public/kaiwen_images/london.jpg">
+              <img src="/kaiwen_images/paris.jpg">
             </div>
             <div class="col-lg-4">
-              <img src="public/kaiwen_images/dublin.jpg">
+              <img src="/kaiwen_images/brussels.jpg">
             </div>
           </div>
           <div class="row">
             <div class="col-lg-4">
-              <img src="public/kaiwen_images/munich.jpg">
+              <img src="/kaiwen_images/amsterdam.jpg">
             </div>
             <div class="col-lg-4">
-              <img src="public/kaiwen_images/barcelona.jpg">
+              <img src="/kaiwen_images/london.jpg">
             </div>
             <div class="col-lg-4">
-              <img src="public/kaiwen_images/prague.jpg">
+              <img src="/kaiwen_images/dublin.jpg">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="/kaiwen_images/munich.jpg">
+            </div>
+            <div class="col-lg-4">
+              <img src="/kaiwen_images/barcelona.jpg">
+            </div>
+            <div class="col-lg-4">
+              <img src="/kaiwen_images/prague.jpg">
             </div>
           </div>
         </div>
@@ -94,6 +94,9 @@ function addTwo(a: boolean): number {
   margin-top: 5%;
   width: 50%;
   height: auto;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #align-btm {
@@ -116,4 +119,5 @@ function addTwo(a: boolean): number {
 .low .row {
   margin-top: 3%;
 }
+
 </style>
