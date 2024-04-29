@@ -90,7 +90,11 @@
         "./imports"
       ],
       "#app-manifest": [
+<<<<<<< HEAD
         "./manifest/meta/dev.json"
+=======
+        "./manifest/meta/dev"
+>>>>>>> bio/cara
       ],
       "#build": [
         "."

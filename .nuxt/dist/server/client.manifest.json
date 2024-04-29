@@ -7,12 +7,20 @@
     "module": true,
     "resourceType": "script"
   },
+<<<<<<< HEAD
   "/Users/serena/GitRepos/technica-2024/technica-intro-2024/node_modules/nuxt/dist/app/entry.js": {
+=======
+  "/Users/caramurphy/TechnicaRepos/technica-intro-2024/node_modules/nuxt/dist/app/entry.js": {
+>>>>>>> bio/cara
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
     "isEntry": true,
+<<<<<<< HEAD
     "file": "/Users/serena/GitRepos/technica-2024/technica-intro-2024/node_modules/nuxt/dist/app/entry.js"
+=======
+    "file": "/Users/caramurphy/TechnicaRepos/technica-intro-2024/node_modules/nuxt/dist/app/entry.js"
+>>>>>>> bio/cara
   }
 }
