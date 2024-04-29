@@ -91,6 +91,10 @@ function addTwo(a: boolean): number {
   height:100%;
 }
 
+.about-me p {
+  color:black;
+}
+
 .wrapper {
   background: rgb(186, 172, 162);
   width: 100%;
