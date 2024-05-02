@@ -83,7 +83,8 @@
   .nav-bar {
     background-color: pink;
     padding: 10px;
-    border-bottom:2px solid white;
+    border-bottom:10px;
+    border-color: papayawhip;
   }
 
   .button-container {
@@ -152,7 +153,7 @@
     color: white;
     font-weight: bold;
     text-align: center;
-    margin-top: 15px; /* Add some spacing */
+    margin-top: 15px;
     list-style-type: none;
   }
 
