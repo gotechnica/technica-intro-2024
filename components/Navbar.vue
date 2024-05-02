@@ -22,6 +22,9 @@
           <li class="nav-item">
             <a class="nav-link" href="./cara" target="_blank">Cara</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./kaiwen" target="_blank">Kaiwen</a>
+          </li>
         </ul>
       </div>
     </nav>
