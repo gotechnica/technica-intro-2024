@@ -19,6 +19,9 @@
         <li class="nav-item">
           <a class="nav-link" href="./matthew" target="_blank">Matthew</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./sydney" target="_blank">Sydney</a>
+        </li>
       </ul>
     </div>
   </nav>
