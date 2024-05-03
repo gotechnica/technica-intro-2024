@@ -1,11 +1,6 @@
 <template>
     <div>
-      <!-- Nav Bar-->
-      <nav class="nav-bar">
-        <ul>
-          <li><router-link to="/">Home</router-link></li>
-        </ul>
-      </nav>
+      <navbar />
       <!-- Main Content -->
       <div class="container">
         <h1>{{ name }}'s Introduction Page</h1>
